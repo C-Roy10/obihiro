@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: #f8f9fa; /* ヘッダーの背景色 */
+    padding: 10px; /* ヘッダーの内側の余白 */
+    text-align: center; /* ヘッダーのテキストを中央揃え */
+}
+nav ol  li  a {
+    color: green; /* リンクの色を白に設定 */
+    text-decoration: none; /* 下線を消す（必要に応じて） */
+}
+nav ol li a:hover {
+    color: #ccc; /* ホバー時の色を薄いグレーに設定（オプション） */
+}
+.hero {
+    background-image: url('images/ob.jpeg'); /* 背景画像を指定 */
+    background-size: cover; /* 要素全体をカバー */
+    background-position: center; /* 中央配置 */
+    background-repeat: no-repeat; /* 繰り返しなし */
+    height: 100vh; /* セクションの高さを画面全体に設定 */
+    width: 100%; /* セクションの幅を全体に設定 */
+}
+.zero {
+    font-family: 'Yu Gothic', sans-serif;/* 手書き風のフォントを指定 */
+    font-size: 36px; /* フォントサイズを調整 */
+    color: #e817ad; /* 必要に応じて文字色を設定 */
+    text-align: center; /* テキストを中央揃え */
+}
+header h1 {
+    font-family: 'Dancing Script', cursive; /* 手書き風のフォントを指定 */
+    font-size: 36px; /* 必要に応じてフォントサイズを調整 */
+    color:lightblue; /* 必要に応じて文字色を設定 */
+    text-align: center; /* テキストを中央揃え */
+}
+.first {
+    font-family: "Cursive", "Comic Sans MS", sans-serif; /* 筆記体フォントを指定 */
+    font-size: 24px; /* 必要に応じてフォントサイズを調整 */
+    color:brown; /* 必要に応じて文字色を設定 */
+}
+.second {
+    position: absolute; /* 絶対位置を指定 */
+    right: 0; /* 右端に揃える */
+    top: 100%; /* 縦方向の中央に配置 */
+    transform: translateY(-50%); /* 縦方向の中央揃えを調整 */
+    text-align: right; /* テキストを右揃え */
+    writing-mode: vertical-rl; /* 縦書きに設定（右から左） */
+    text-orientation: upright; /* 文字を正しい向きにする */
+    white-space: nowrap; /* テキストの折り返しを防ぐ */
+    font-size: 24px; /* フォントサイズを設定 */
+    color: yellow; /* テキストの色を黄色に設定 */
+    font-weight: bold; /* 太字に設定 */
+    padding: 10px; /* テキストの内側の余白 */
+    background-color: rgba(0, 0, 0, 0.5); /* 半透明の背景色を設定 */
+    border-radius: 10px; /* 角を丸くする */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* シャドウ効果を追加 */
+    transition: transform 0.3s ease; /* ホバー時のアニメーション効果 */
+    font-family: 'Yu Gothic', sans-serif; /* 手書き風のフォントを指定 */
+}
+.home0 {
+    display: flex; /* フレックスボックスを使用 */
+    flex-direction: column; /* 子要素を縦方向に配置 */
+    justify-content: center; /* 縦方向に中央揃え */
+    align-items: center; /* 横方向に中央揃え */
+    padding: 20px; /* セクションの内側の余白 */
+    background-color: #f0f0f0; /* セクションの背景色 */
+    text-align: center; /* テキストを中央揃え */
+    height: 100vh; /* セクションの高さを画面全体に設定 */
+}
+.home0 h2 {
+    font-size: 36px; /* タイトルのフォントサイズを設定 */
+    color: green; /* タイトルの色を設定 */
+    margin-bottom: 20px; /* タイトルの下に余白を追加 */
+}
+.home0 p {
+    font-size: 18px; /* テキストのフォントサイズを設定 */
+    color: #666; /* テキストの色を設定 */
+    margin-bottom: 10px; /* テキストの下に余白を追加 */
+font:-family: ' serif'; /* フォントファミリーを設定 */
+    line-height: 1.6; /* 行間を設定 */
+}
+
+.flex-item {
+    flex: 1; /* 子要素を均等に拡大 */
+    gap: 10px;
+    display: flex; /* フレックスボックスを使用 */
+    justify-content: center; /* 子要素を横方向に中央揃え */
+    align-items: center;  /* 子要素を縦方向に中央揃え */
+    height : 300px; /* アイテムの高さを設定 */
+    background-color: #fff; /* アイテムの背景色を設定 */
+    border-radius: 10px; /* アイテムの角を丸くする */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* アイテムにシャドウ効果を追加 */
+    padding: 20px; /* アイテムの内側の余白 */
+    text-align: center; /* テキストを中央揃え */
+
+}   
+.home1 {
+    width: 150%; /* 必要に応じて幅を設定（例: 80%） */
+    overflow-x: auto;     /* 横スクロールを有効にする */
+    max-width: 1200px; /* 最大幅を設定 */
+    margin: 0 auto; /* セクションを中央揃え */
+    white-space: nowrap; /* テキストの折り返しを防ぐ */
+    padding: 20px; /* 内側の余白を設定 */
+    background-color: #f9f9f9; /* 必要に応じて背景色を設定 */
+    border-radius: 10px; /* 必要に応じて角を丸くする */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 必要に応じてシャドウを追加 */
+}
+.box_item1 {
+    width: 300px; /* 画像の幅を設定 */
+    height: auto; /* 高さを自動調整してアスペクト比を維持 */
+    border-radius: 20px; /* 必要に応じて角を丸くする */
+    object-fit: cover; /* 縦横比を保ちつつトリミングして均一表示 */
+    border-radius: 20px; /* 角を丸くする */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* シャドウ効果を追加 */
+    margin: 10px; /* 画像周りの余白を設定 */
+}
+.box_item2 {
+    width: 150px; /* 画像の幅を設定 */
+    height: auto; /* 高さを自動調整してアスペクト比を維持 */
+    border-radius: 10px; /* 必要に応じて角を丸くする */
+    object-fit: cover; /* 縦横比を保ちつつトリミングして均一表示 */
+    border-radius: 10px; /* 角を丸くする */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* シャドウ効果を追加 */
+    margin: 10px; /* 画像周りの余白を設定 */
+}
